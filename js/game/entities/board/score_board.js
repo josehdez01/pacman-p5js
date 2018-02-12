@@ -52,7 +52,7 @@ define([
             p5.textSize(25);
             p5.fill("#ffffff");
             p5.textFont(this.fonts.score);
-            p5.text(`lvl-${this.level}`, this.position.x + 25, this.position.y + 15, this.width, this.height / 2);
+            p5.text(`lvl-${this.level + 1}`, this.position.x + 25, this.position.y + 15, this.width, this.height / 2);
         }
 
         drawTitle(){
