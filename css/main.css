@@ -1,0 +1,19 @@
+.controls {
+    margin: auto;
+    text-align: center;
+    width: 150px;
+}
+
+.type {
+    text-align: left;
+}
+
+#canvas {
+
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    border: solid 1px;
+}

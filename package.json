@@ -1,0 +1,5 @@
+{
+  "name": "p5js-pacman",
+  "description": "Pacman like game using p5js, requirejs and ecma2015 syntaxis",
+  "version": "0.0.1"
+}

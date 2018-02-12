@@ -1,0 +1,44 @@
+{
+  "canvas": {
+    "width": 1040,
+    "height": 760
+  },
+
+  "board": {
+    "bgColor": "#080808",
+    "pos": {"x": 0, "y": 0},
+    "cellSize": 40,
+    "cells" : {
+      "x": 13,
+      "y": 19
+    }
+  },
+
+  "pacman": {
+    "padding": 8,
+    "speed": 5,
+    "color": "#FFEE00",
+    "startDir": "right"
+  },
+
+  "bill": {
+    "padding": 10,
+    "speed": 3,
+    "colors": [
+      "#FE000A",
+      "#30C4FB",
+      "#FF91DD",
+      "#FCAC27",
+      "#00FFBB"
+    ]
+  },
+
+  "food": {
+    "stroke": {
+      "color": "#0349d6",
+      "width": 2
+    },
+    "color": "#ffb700",
+    "size": 12
+  }
+}
