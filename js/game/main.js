@@ -19,7 +19,7 @@ function(
 
         function setEnemys() {
             enemies = [];
-            for(let i = 0; i < myBoard.level + 3; i++) {
+            for(let i = 0; i < myBoard.level + settings.bill.initial; i++) {
                 enemies.push(new Bill(p5, settings.bill, myBoard, pacman)); //p5, settings, board, pacman
             }
         }
@@ -99,14 +99,18 @@ function(
         p5.keyPressed = function() {
             if(p5.keyCode === p5.UP_ARROW){
                 pacman.turn("up");
+                return false;
             } else if(p5.keyCode === p5.DOWN_ARROW){
                 pacman.turn("down");
+                return false;
             } else if(p5.keyCode === p5.LEFT_ARROW){
                 pacman.turn("left");
+                return false;
             } else if(p5.keyCode === p5.RIGHT_ARROW){
                 pacman.turn("right");
+                return false;
             }
-            return false;
+            return true;
         };
     };
 

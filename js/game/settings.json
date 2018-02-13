@@ -23,7 +23,8 @@
 
   "bill": {
     "padding": 10,
-    "speed": 3,
+    "speed": 2,
+    "initial": 2,
     "colors": [
       "#FE000A",
       "#30C4FB",
